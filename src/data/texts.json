@@ -1,0 +1,20 @@
+{
+    "title": "SkiRental™",
+
+    "formParagraph": "Välkommen till SkiRental! Fyll i dina uppgifter nedan så hämtar vi rätt skidor för dig.",
+
+    "heightInput": "Ange din längd:",
+    "heightInput_placeholder": "Ange din längd:",
+
+    "ageInput": "Ange din ålder:",
+
+    "skiTypeInput": "Ange önskad typ av skidor:",
+
+    "btn_getSkis": "Hämta skidor",
+    "btn_back": "Tillbaka",
+
+    "freestyleWarning": "OBS! Tänk på att tävlingsreglerna inte tillåter att fristilsskidor är mer än 10cm kortare än din kroppslängd.",
+    "resultHeader": "Ett skepp kommer lastat med skidor!",
+    "resultParagraph": "Enligt de uppgifter du angett bör du ha skidor med en längd på:",
+    "resultParagraph_span": "Enligt de uppgifter du angett bör du ha skidor med en längd mellan:"
+}

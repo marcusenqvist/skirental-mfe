@@ -1,0 +1,85 @@
+@import '~bootstrap';
+
+.skirental-root {
+    background-image: url(./images/skislope.jpg);
+    background-color: #e5f0ff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+}
+
+.header-title {
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 1rem;
+}
+
+.field {
+    display: inline-block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem 1.75rem .375rem .75rem;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    &.select {
+        background: #fff url(./svg-icons/dropDownArrows.svg)no-repeat right .75rem center;
+        background-size: 8px 10px;
+    }
+}
+
+.form-row {
+    border-bottom: 1px solid lightgray;
+}
+
+.row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    margin-top: 1.5rem;
+    &.right {
+        float: right;
+    }
+}
+
+.send-request-btn {
+    &:disabled {
+        background-color: #aaaaaa;
+        border-color: #000000;
+        color: #000000;
+    }
+}
+
+.freestyle-alert {
+    text-align: center;
+    padding: 5px;
+    >p {
+        margin: 0;
+    }
+}
+
+.resultrow-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.result-value {
+    border-radius: 0.5rem;
+    align-self: center;
+    border: 1.5px solid #000000;
+    background-color: #e1edff;
+}
