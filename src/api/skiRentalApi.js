@@ -1,5 +1,3 @@
-import { skiTypes } from "../data/types";
-
 export const sendGetSkis = (height, age, type) => {
     var options = {
         method: 'POST',
@@ -11,7 +9,7 @@ export const sendGetSkis = (height, age, type) => {
         body: JSON.stringify({
           height: height,
           ageCategory: age,
-          isFreestyle: type === skiTypes.CLASSIC ? false : true,
+          skiType: type,
         })
     };
 
